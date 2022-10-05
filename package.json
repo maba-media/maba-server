@@ -5,7 +5,8 @@
   "author": "MABA MEDIA <marcelo@maba.me>",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
+    "husky:prepare": "husky install"
   },
   "devDependencies": {
     "@types/node": "^18.8.2",
@@ -13,6 +14,8 @@
     "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
