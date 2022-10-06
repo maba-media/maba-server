@@ -1,3 +1,7 @@
-const mensagem = 'hello world da felicidade!!!'
+class Pessoa {
+  digaMeuNome() {
+    return 'Marcelo'
+  }
+}
 
-console.log(mensagem)
+export default Pessoa
